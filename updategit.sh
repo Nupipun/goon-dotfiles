@@ -1,4 +1,5 @@
 #!/bin/bash
+eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github
 cd ~/Data/Goon-cave\ Dotfiles/
 git add .
