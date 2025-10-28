@@ -10,3 +10,6 @@ alias fishconf='nano ~/.config/fish/config.fish'
 alias updots='bash -c "~/Data/Goon-cave\ Dotfiles/updategit.sh"'
 alias refish='source ~/.config/fish/config.fish'
 alias startsea='/home/nupi/Seanime/start_services.sh'
+
+
+
