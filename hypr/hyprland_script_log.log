@@ -1,0 +1,76 @@
+mar 28 oct 2025 02:46:26 CET: Script executed.
+mar 28 oct 2025 02:48:05 CET: Script started.
+mar 28 oct 2025 02:48:05 CET: hyprctl monitors exited with code 0. Monitors on count: 0
+mar 28 oct 2025 02:48:05 CET: Monitors are OFF. Attempting to turn ON.
+mar 28 oct 2025 02:48:05 CET: hyprctl dispatch dpms on exited with code 0.
+mar 28 oct 2025 02:48:12 CET: openrgb --device 0 --color FFFFFF exited with code 0.
+mar 28 oct 2025 02:48:19 CET: openrgb --device 1 --color FFFFFF exited with code 0.
+mar 28 oct 2025 02:48:19 CET: Script finished.
+mar 28 oct 2025 02:48:31 CET: Script started.
+mar 28 oct 2025 02:48:31 CET: hyprctl monitors exited with code 0. Monitor status line: 	dpmsStatus: 1
+	dpmsStatus: 1
+mar 28 oct 2025 02:48:31 CET: Monitors are OFF. Attempting to turn ON.
+mar 28 oct 2025 02:48:31 CET: hyprctl dispatch dpms on exited with code 0.
+mar 28 oct 2025 02:48:38 CET: openrgb --device 0 --color FFFFFF exited with code 0.
+mar 28 oct 2025 02:48:45 CET: openrgb --device 1 --color FFFFFF exited with code 0.
+mar 28 oct 2025 02:48:45 CET: Script finished.
+mar 28 oct 2025 02:48:56 CET: Script started.
+mar 28 oct 2025 02:48:56 CET: hyprctl monitors exited with code 0. Monitor status line: 	dpmsStatus: 1
+	dpmsStatus: 1
+mar 28 oct 2025 02:48:56 CET: Monitors are ON. Attempting to turn OFF.
+mar 28 oct 2025 02:48:56 CET: hyprctl dispatch dpms off exited with code 0.
+mar 28 oct 2025 02:49:03 CET: openrgb --device 0 --color 000000 exited with code 0.
+mar 28 oct 2025 02:49:10 CET: openrgb --device 1 --color 000000 exited with code 0.
+mar 28 oct 2025 02:49:10 CET: Script finished.
+mar 28 oct 2025 02:49:15 CET: Script started.
+mar 28 oct 2025 02:49:15 CET: hyprctl monitors exited with code 0. Monitor status line: 	dpmsStatus: 0
+	dpmsStatus: 0
+mar 28 oct 2025 02:49:15 CET: Monitors are OFF. Attempting to turn ON.
+mar 28 oct 2025 02:49:15 CET: hyprctl dispatch dpms on exited with code 0.
+mar 28 oct 2025 02:49:22 CET: openrgb --device 0 --color FFFFFF exited with code 0.
+mar 28 oct 2025 02:49:29 CET: openrgb --device 1 --color FFFFFF exited with code 0.
+mar 28 oct 2025 02:49:29 CET: Script finished.
+mar 28 oct 2025 02:52:47 CET: Script started.
+mar 28 oct 2025 02:52:47 CET: hyprctl monitors exited with code 0. Monitor status line: 	dpmsStatus: 1
+	dpmsStatus: 1
+mar 28 oct 2025 02:52:47 CET: Monitors are ON. Attempting to turn OFF.
+mar 28 oct 2025 02:52:47 CET: hyprctl dispatch dpms off exited with code 0.
+mar 28 oct 2025 02:52:53 CET: openrgb --device 0 --color 000000 exited with code 0.
+mar 28 oct 2025 02:53:00 CET: openrgb --device 1 --color 000000 exited with code 0.
+mar 28 oct 2025 02:53:00 CET: Script finished.
+mar 28 oct 2025 02:53:06 CET: Script started.
+mar 28 oct 2025 02:53:06 CET: hyprctl monitors exited with code 0. Monitor status line: 	dpmsStatus: 0
+	dpmsStatus: 0
+mar 28 oct 2025 02:53:06 CET: Monitors are OFF. Attempting to turn ON.
+mar 28 oct 2025 02:53:06 CET: hyprctl dispatch dpms on exited with code 0.
+mar 28 oct 2025 02:53:13 CET: openrgb --device 0 --color 0F2024 exited with code 0.
+mar 28 oct 2025 02:53:20 CET: openrgb --device 1 --color 0F2024 exited with code 0.
+mar 28 oct 2025 02:53:20 CET: Script finished.
+mar 28 oct 2025 02:55:35 CET: Script started.
+mar 28 oct 2025 02:55:35 CET: hyprctl monitors exited with code 0. Monitor status line: 	dpmsStatus: 1
+	dpmsStatus: 1
+mar 28 oct 2025 02:55:35 CET: Monitors are ON. Attempting to turn OFF.
+mar 28 oct 2025 02:55:35 CET: hyprctl dispatch dpms off exited with code 0.
+mar 28 oct 2025 02:55:42 CET: openrgb (devices 0 and 1) --color 000000 exited with code 0.
+mar 28 oct 2025 02:55:42 CET: Script finished.
+mar 28 oct 2025 02:55:48 CET: Script started.
+mar 28 oct 2025 02:55:48 CET: hyprctl monitors exited with code 0. Monitor status line: 	dpmsStatus: 0
+	dpmsStatus: 0
+mar 28 oct 2025 02:55:48 CET: Monitors are OFF. Attempting to turn ON.
+mar 28 oct 2025 02:55:48 CET: hyprctl dispatch dpms on exited with code 0.
+mar 28 oct 2025 02:55:55 CET: openrgb (devices 0 and 1) --color 0F2024 exited with code 0.
+mar 28 oct 2025 02:55:55 CET: Script finished.
+mar 28 oct 2025 02:57:21 CET: Script started.
+mar 28 oct 2025 02:57:21 CET: hyprctl monitors exited with code 0. Monitor status line: 	dpmsStatus: 1
+	dpmsStatus: 1
+mar 28 oct 2025 02:57:21 CET: Monitors are ON. Attempting to turn OFF.
+mar 28 oct 2025 02:57:21 CET: hyprctl dispatch dpms off exited with code 0.
+mar 28 oct 2025 02:57:21 CET: openrgb (devices 0 and 1) --color 000000 sent to background.
+mar 28 oct 2025 02:57:21 CET: Script finished.
+mar 28 oct 2025 02:57:31 CET: Script started.
+mar 28 oct 2025 02:57:31 CET: hyprctl monitors exited with code 0. Monitor status line: 	dpmsStatus: 0
+	dpmsStatus: 0
+mar 28 oct 2025 02:57:31 CET: Monitors are OFF. Attempting to turn ON.
+mar 28 oct 2025 02:57:31 CET: hyprctl dispatch dpms on exited with code 0.
+mar 28 oct 2025 02:57:31 CET: openrgb (devices 0 and 1) --color 0F2024 sent to background.
+mar 28 oct 2025 02:57:31 CET: Script finished.

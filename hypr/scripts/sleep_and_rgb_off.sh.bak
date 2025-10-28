@@ -1,0 +1,35 @@
+#!/bin/bash
+
+set -e # Exit immediately if a command exits with a non-zero status.
+
+LOG_FILE="/home/nupi/.config/hypr/hyprland_script_log.log"
+echo "$(date): Script started." >> "$LOG_FILE"
+
+# Check if any monitor is currently active (DPMS on)
+# Using a direct check for "on" status in hyprctl output
+MONITOR_STATUS=$(/usr/bin/hyprctl monitors | grep "dpmsStatus")
+HYPRCTL_EXIT_CODE=$?
+echo "$(date): hyprctl monitors exited with code $HYPRCTL_EXIT_CODE. Monitor status line: $MONITOR_STATUS" >> "$LOG_FILE"
+
+if [[ "$MONITOR_STATUS" == *"dpmsStatus: 1"* ]]; then
+    echo "$(date): Monitors are ON. Attempting to turn OFF." >> "$LOG_FILE"
+    # Monitors are on, so turn them off and set RGB to black
+    /usr/bin/hyprctl dispatch dpms off
+    DISPATCH_EXIT_CODE=$?
+    echo "$(date): hyprctl dispatch dpms off exited with code $DISPATCH_EXIT_CODE." >> "$LOG_FILE"
+
+    /usr/bin/openrgb --device 0 --color 000000 --device 1 --color 000000
+    OPENRGB_EXIT_CODE=$?
+    echo "$(date): openrgb (devices 0 and 1) --color 000000 exited with code $OPENRGB_EXIT_CODE." >> "$LOG_FILE"
+else
+    echo "$(date): Monitors are OFF. Attempting to turn ON." >> "$LOG_FILE"
+    # Monitors are off, so turn them on and set RGB to the custom color
+    /usr/bin/hyprctl dispatch dpms on
+    DISPATCH_EXIT_CODE=$?
+    echo "$(date): hyprctl dispatch dpms on exited with code $DISPATCH_EXIT_CODE." >> "$LOG_FILE"
+
+    /usr/bin/openrgb --device 0 --color 0F2024 --device 1 --color 0F2024
+    OPENRGB_EXIT_CODE=$?
+    echo "$(date): openrgb (devices 0 and 1) --color 0F2024 exited with code $OPENRGB_EXIT_CODE." >> "$LOG_FILE"
+fi
+echo "$(date): Script finished." >> "$LOG_FILE"
