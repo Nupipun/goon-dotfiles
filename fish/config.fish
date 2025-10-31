@@ -12,4 +12,4 @@ alias refish='source ~/.config/fish/config.fish'
 alias startsea='/home/nupi/Seanime/start_services.sh'
 
 
-
+alias timeshift-gui='pkexec env WAYLAND_DISPLAY="$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" /usr/bin/timeshift-gtk'
